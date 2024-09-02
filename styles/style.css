@@ -1,0 +1,172 @@
+.main-logo {
+    /* Medi */
+    position: absolute;
+    width: 95.25px;
+    height: 40.61px;
+    left: 80px;
+    font-family: "Montserrat", system-ui;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 160%;
+    /* or 48px */
+    letter-spacing: -0.02em;
+    color: #0A1B32;
+}
+
+.main-dot {
+    /* dot */
+    color: #FC569A;
+}
+
+.nav-horizontal-menu {
+    /* Home | About | Blog | Contact */
+    width: 95.25px;
+    height: 40.61px;
+    left: 80px;
+    top: 37px;
+    font-family: "Roboto", system-ui;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    list-style-type: none;
+    /* identical to box height, or 150% */
+    text-align: left;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+
+nav ul {
+    list-style-type: none;
+    /* Remove bullets */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* Creates a flexible container */
+}
+
+nav ul li {
+    margin-right: 20px;
+    /* Spacing between items */
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+    /* Remove trailing space from last item*/
+}
+
+.navigation-menu {
+    position: absolute;
+    top: 47px;
+    left: 272px;
+}
+
+.nav-horizontal-menu ul li {
+    margin-right: 20px;
+    display: flex;
+}
+
+.btn-style {
+    background: #FC569A;
+    font-family: "Roboto", system-ui;
+    font-style: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.p-sign-in {
+    /* Sign In */
+    position: absolute;
+    width: 51px;
+    height: 24px;
+    right: 230px;
+    top: 48px;
+    margin: 0;
+    font-family: "Roboto", system-ui;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+
+.btn-sign-up {
+    /* Button Sign UP */
+    position: absolute;
+    width: 120px;
+    height: 59.65px;
+    right: 68px;
+    top: 30px;
+    border-radius: 6px;
+    border: none;
+}
+
+section {
+    display: inline-block;
+}
+
+.main-title {
+    /* Stay Productive & Work Remotely */
+    max-width: 500px;
+    width: 100%;
+    margin-top: 280px;
+    margin-left: 200px;
+    font-family: "Ramaraja", system-ui;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 76px;
+    /* or 106% */
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+
+.main-info {
+    /* The key to work-from-home success is to create an enviroment that allows you to focus on the tasks at hand. Whether you are working from home for the first time. */
+    max-width: 583px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 200px;
+    font-family: "Roboto", system-ui;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+}
+
+.btn-main-button {
+    /* Button Learn More*/
+    width: 154px;
+    height: 64px;
+    margin-top: 50px;
+    margin-left: 200px;
+    background-color: #FC569A;
+    border-radius: 6px;
+    border: none;
+    font-family: "Roboto", system-ui;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+}
+
+.img-man-yoga {
+    margin-left: 17px;
+    top: 205px;
+    position: absolute;
+    width: 50vw;
+    /* 50% of the viewport width */
+    height: auto;
+    /* Maintain aspect ratio */
+}
